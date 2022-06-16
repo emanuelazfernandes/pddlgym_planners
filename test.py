@@ -2,8 +2,8 @@
 """
 
 import pddlgym
-from pddlgym_planners.ff import FF  # FastForward
-from pddlgym_planners.fd import FD  # FastDownward
+from ff import FF  # FastForward
+from fd import FD  # FastDownward
 
 def test_planners():
     """Make sure that the plans found by the planners
